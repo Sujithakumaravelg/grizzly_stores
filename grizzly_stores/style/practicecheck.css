@@ -1,0 +1,280 @@
+.center-block{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width:35%;
+}
+.labelbottom{
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #D3D3D3;
+  overflow: hidden;
+  color:rgba(0,0,0,20);
+   width:30% 
+}
+.labelbottom.viewProductform{
+	  border-width: 0 0 2px;
+	width:100%
+	
+}
+.form-rounded {
+	border:none;
+	border-radius: 25px;
+	background-color:#F5F5F5;
+	padding-left:5px;
+	width:11.5%;
+	height:20% !important;
+}
+.username-padding{
+	
+	padding:7px 0px 7px 4px;
+}
+.login-logout-button{
+	border-width: 1px 1px 1px 1px;
+	border-radius: 25px;
+	background-color:#D3D3D3;
+	color:black;
+	
+}
+.navbar-color{
+	background-color:rgb(235,235,235);
+	padding-top:20px;
+	
+}
+.navbar-font{
+	padding-top:7px;
+	font-size:20px;
+	font-weight:bold;
+	color:rgba(0,0,0,0.76);
+	padding-bottom:7px;
+}
+.search-bar{
+	
+	border-radius: 2rem;
+	border-width: 0px 0px 0px 0px;
+	background-color:#FFFFFF;
+	padding-left:10px;
+	padding-top:7px;
+	padding-bottom:7px;
+	width:115%;
+}
+.search-bar-padding{
+	padding-left:45px;
+	padding-top:10px;
+}
+.search-icon-padding{
+	padding-top:12px;
+	padding-left:60px;
+}
+.nav-pad-right{
+	padding-right:2px;
+	padding-top:15px;
+	padding-left:50px;
+}
+.nav-pad-right-logout{
+	padding-right:25px;
+	padding-top:20px;
+}
+.nav-pad-right-bellIcon{
+	padding-right:20px;
+	padding-top:17px;
+}
+.logout{
+padding-right:20px;
+}
+
+
+.pill-bg-grey{
+	background-color:rgb(167,167,167);
+	
+}
+.pill-bg-lgrey{
+	background-color:rgb(230,230,230);
+	
+}
+.pill-bg-cream{
+	background-color:rgb(260,260,260);
+	
+}
+.pill-text-color{
+	padding-top: 15px;
+    padding-bottom: 15px;
+	color:rgb(0,0,0);
+	font-weight:bold;
+	font-size:20px;
+	height: 60px;
+}
+.pill-text-color.pillscolor{
+	color:rgba(0,0,0,0);
+}
+.active{
+	background-color:grey;
+}
+.profile-float
+{
+
+                border:none;
+                color:white;
+                background-color:rgb(196,196,196);
+				padding-bottom:20px;
+				padding-top:20px;
+				padding-left:5px;
+				padding-right:5px;
+}
+.profile-pic{
+				padding-left:75px;
+                margin-left:45px;
+                margin-top:10px;
+}
+.p6{
+                margin-left:1px;
+                margin-top:10px;
+                text-align:center;
+}
+.text-opacity{
+	color:rgba(0,0,0,0.5)
+}
+
+.table-button{
+	border-radius:2rem !important;
+	border-width:1px 1px 1px 1px ;
+	width:20%;
+	background-color:rgba(200,200,200,1);
+	color:#000;
+}
+.table-button.button-chooseAction{
+	width:12.5%;
+	border-radius:3rem;
+	background-color:rgba(245,245,245,1);
+	font-size:18px;
+	color:rgb(0,0,0,0.5)
+
+}
+
+.search-category{
+	border:none;
+	border-radius:1.7rem !important;
+	background-color:rgb(235,235,235,1);
+	padding :7px 3px;;
+}
+.sortBy{
+	background-color:rgb(235,235,235,1);
+	border:none;
+	width:13%;
+	
+	
+}
+.addProduct-padding{
+	float:right;
+	padding-right:10%;
+}
+.addProduct-color{
+	background-color:rgb(170,170,170,1);
+	border:none;
+	border-radius:2rem;
+	width:150%;
+	font-size:20px;
+	
+}
+.rating{
+	color:rgba(0,0,0,0.5);
+	text-align:center;
+}
+div.dashed {border-style: dashed;
+height:200px;
+width:200px;
+background-color:#CFCFCF;
+  margin: auto;
+  
+  padding: 10px;
+}
+.ViewProduct-form{
+                border-width:0 0 3px;
+                padding:15px;
+}
+.square{
+	height:550px;
+	width:550px;
+	background-color:rgb(243,243,243);
+	
+}
+.add-button{
+	bottom:20px;
+	color:rgb(250,250,250);
+	border:none;
+	border-radius:20px;
+}
+.cancel-button {
+  background-color :rgb(221,221,221);
+  color: rgba(0,0,0,0.5);
+  padding: 3px 18px 3px 18px;
+  border-radius: 2rem;
+  border:none;
+  font-size:20px;
+}
+
+#cancelButton {
+  position: fixed;
+  bottom: 90px;
+  right: 90px;
+}
+
+.add-button {
+  background-color :rgba(0,0,0,0.9);
+  color: rgb(255,255,255);
+  padding: 3px 29px 3px 29px;
+  border-radius: 2rem;
+  border:none;
+  font-size:20px;
+}
+
+#addButton {
+  position: fixed;
+  bottom: 140px;
+  right: 100px;
+}
+.cancel{
+	padding-left:4px!important;
+	padding-right:4px; 
+	width:120%
+}
+.button-width{
+	width:25%;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+.star-glyph{
+	font-size:20px;
+	color:rgba(243,243,243,0.5)
+}
+.pencil-glyph{
+	color:rgb(255,255,255);
+	background-color:black;
+	font-size:17px;
+	padding:0px 0px 0px 0px;
+}
+tr{
+	border-color:rgba(0,0,0,0.5);
+}
+.carousel-text-color{
+	background-color:rgba(0,0,0,0.5);
+	width:auto;
+}
+.price-text{
+	bottom:-89px !important;
+	left:10px;
+	position:absolute;
+}
+.table-button-pad{
+	padding:0 20px 0 20px;
+	
+	
+}
+.scrollit {
+    overflow-y:scroll;
+    height:325px;
+}
+

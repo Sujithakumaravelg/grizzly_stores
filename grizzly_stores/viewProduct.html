@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style\practicecheck.css">
+		<link rel="stylesheet" type="text/css" href="style\placeholder.css">
+		<title>ViewProduct</title>
+		<script type="text/javascript" src="scripts\username.js"></script>
+		 <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+	<body>
+		<div class="container-fluid">
+			 <nav class="collapse navbar-collapse navbar-color">
+					<div class="navbar-header">
+						<p class="navbar-font" >GRIZZLY<img src="images\grizzlygrey.png" alt="Logo" width="85px" height="60px">STORE</p>
+					</div>
+					<ul class="nav navbar-nav ">
+						<form class="navbar-form navbar-left">
+                            <div class="form-group has-feedback has-search search-bar-padding">
+                                <input type="text" class="search-bar" placeholder="search" data-toggle="tooltip" title="Search"/>
+								<span class="glyphicon glyphicon-search form-control-feedback search-icon-padding">
+                                                                </span>
+
+							</div>
+						</form>
+					</ul>
+					
+					<ul>
+
+					</ul>
+					<ul class="navbar-right nav-pad-right nav-pad-right-logout">
+						<div class="logout"><input type="button" class="login-logout-button " onclick="closeTab()" style="width:150%" value="Logout" data-toggle="tooltip" title="Logout"></div>
+					</ul>
+					<ul class="navbar-right nav-pad-right ">
+					<h5>WELCOME,ADMIN,USERNAME</h5>
+					</ul>
+					<ul class="navbar-right nav-pad-right nav-pad-right-bellIcon">
+						<a class="btn btn-transparent glyphicon glyphicon-bell" data-toggle="tooltip" title="No notification"href="#demo" role="button" aria-expanded="false" aria-controls="collapseExample" ></a>
+						
+					</ul>					
+				</nav>
+				<div class="row">
+					<div class="col-lg-3">
+						<br><br>
+						<div class="well" style="padding-bottom:10px;">
+                            <div class="container-fluid">
+                                <h4 class="profile-float"> PROFILE</h4>
+                            </div><br><br>
+                            <div class="profile-pic">
+                                <img src="images\greybg.png" height="150px" width="150px id="p5">
+                            </div><br><br>
+                            <div class="p6">
+                                <h2> Helen Cho</h2>
+                                <br><br>
+								<h4>  <b>ID</b> <br><span class="text-opacity"> GRZLY17234</span> <br><br><br><b> Designation</b><br><span class="text-opacity"> Sr.Admin</span> <br><br><br><b> Office</b> <br> <span class="text-opacity">NYC,NY,USA</span></h4><br><br><br><br><br><br><br><br><br>
+                            </div>
+                        </div>
+					</div>
+					<div class="col-lg-9"><br><br>
+						<ul class="nav nav-pills nav-justified">
+							<li class="pill-bg-grey" ><a href="#"class="pill-text-color" data-toggle="tooltip" title="Products">Products</a></li>
+							<li class="pill-bg-lgrey"><a href="#" class="pill-text-color" data-toggle="tooltip" title="Vendors">Vendors</a></li>
+							<li class="pill-bg-cream"><a href="#" class="pill-text-color pillscolor" data-toggle="tooltip" title="">Category</a></li>
+						</ul>
+					<br><br>
+					
+					<div class="row">
+						<div class="col-sm-6">
+							<img id="myImage" src="images\greybg1.png" height="550px" width="550px">
+							<br><br>
+							<div class="rows">
+								<div class="col-sm-2">
+									
+										<input type="image" src="images\trimmer1.jpg" alt="Submit" width="65" height="65" onclick="document.getElementById('myImage').src='trimmer1.jpg'" class="fa fa-close">
+									
+
+								</div>
+								<div class="col-sm-2">
+									
+										<input type="image" src="images\trimmer2.jpg" alt="Submit" width="65" height="65" onclick="document.getElementById('myImage').src='images\trimmer2.jpg'">
+									
+								</div>
+								<div class="col-sm-2">
+									
+										<input type="image" src="images\trimmer3.jpg" alt="Submit" width="65" height="65" onclick="document.getElementById('myImage').src='images\trimmer3.jpg'">
+								
+								</div>
+								<div class="col-sm-2">
+									
+										<input type="image" src="images\trimmer4.jpg" alt="Submit" width="65" height="65" onclick="document.getElementById('myImage').src='images\trimmer4.jpg'">
+								
+								</div>
+						</div></div>	
+						<div class="col-sm-2">
+                               <div class="form-group">
+                                    <input type="text" class="labelbottom viewProductform" id="text1" placeholder="Enter product id"><br>
+                                    <div class="dropdown"><br>
+									<button class="btn btn-default dropdown-toggle viewProductform labelbottom " value="selected" style="text-align:left;padding-left:0px;" type="button" data-toggle="dropdown">category      
+										<span class="caret"></span></button>
+										<ul class="dropdown-menu">
+										<li><a href="#">Personal Care</a></li>
+										<li><a href="#">Laptops</a></li>
+										<li><a href="#">Art Supplires</a></li>
+									</ul><br>
+								</div><br>
+                                    <input type="text" class="labelbottom viewProductform" placeholder="Name"><br><br>
+                                   <input type="text" class="labelbottom viewProductform" placeholder="Description"><br><br>
+                                       <input type="number" class="labelbottom viewProductform" placeholder="Price"></div>
+								
+								
+						</div>
+						<div class="col-sm-2">
+						
+					<div id="cancelButton">
+<button type="submit" class="cancel-button" onClick="fn()" >Cancel</button>
+<div id="addButton">
+<button class="add-button" onClick="fn1()" >add</button>
+
+</div></div>
+				</div>
+				</div>
+				</div></div></div>
+				</body>
+				</html>

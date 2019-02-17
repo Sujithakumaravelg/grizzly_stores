@@ -1,0 +1,30 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
+}
+
+
+p{
+	text-indent:20px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 2px;
+}
+::-webkit-scrollbar-button {
+    background: white;
+}
+::-webkit-scrollbar-track-piece {
+    background: white;
+}
+::-webkit-scrollbar-thumb {
+    background: grey;
+}​

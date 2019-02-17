@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style\practicecheck.css">
+		<link rel="stylesheet" type="text/css" href="style\placeholder.css">
+		<title>AddProduct-shaver</title>
+		<script type="text/javascript" src="scripts\username.js"></script>
+		 <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+	<body>
+		<div class="container-fluid">
+			 <nav class="collapse navbar-collapse navbar-color">
+					<div class="navbar-header">
+						<p class="navbar-font" >GRIZZLY<img src="images\grizzlygrey.png" alt="Logo" width="85px" height="60px">STORE</p>
+					</div>
+					<ul class="nav navbar-nav ">
+						<form class="navbar-form navbar-left">
+                            <div class="form-group has-feedback has-search search-bar-padding">
+                                <input type="text" class="search-bar" placeholder="search" data-toggle="tooltip" title="Search"/>
+								<span class="glyphicon glyphicon-search form-control-feedback search-icon-padding">
+                                                                </span>
+
+							</div>
+						</form>
+					</ul>
+					
+					<ul>
+						<!--<script>
+							function getUserName(){
+								var b = document.getElementById('name').value;
+								document.write("Welcome,admin"+b);
+							}
+						</script>-->
+					</ul>
+					<ul class="navbar-right nav-pad-right nav-pad-right-logout">
+						<div class="logout"><input type="button" class="login-logout-button " onclick="closeTab()" style="width:150%" value="Logout" data-toggle="tooltip" title="Logout"></div>
+					</ul>
+					<ul class="navbar-right nav-pad-right ">
+					<h5>WELCOME,ADMIN,USERNAME</h5>
+					</ul>
+					<ul class="navbar-right nav-pad-right nav-pad-right-bellIcon">
+						<a class="btn btn-transparent glyphicon glyphicon-bell" data-toggle="tooltip" title="No notification"href="#demo" role="button" aria-expanded="false" aria-controls="collapseExample" ></a>
+						
+					</ul>					
+				</nav>
+				<div class="row">
+					<div class="col-lg-3">
+						<br><br>
+						<div class="well" style="padding-bottom:10px;">
+                            <div class="container-fluid">
+                                <h4 class="profile-float"> PROFILE </h4>
+                            </div><br><br>
+                            <div class="profile-pic">
+                                <img src="images\greybg.png" height="150px" width="150px id="p5">
+                            </div><br><br>
+                            <div class="p6">
+                                <h2> Helen Cho</h2>
+                                <br><br>
+								<h4>  <b>ID</b> <br><span class="text-opacity"> GRZLY17234</span> <br><br><br><b> Designation</b><br><span class="text-opacity"> Sr.Admin</span> <br><br><br><b> Office</b> <br> <span class="text-opacity">NYC,NY,USA</span></h4><br><br><br><br><br><br><br><br><br>
+                            </div>
+                        </div>
+					</div>
+					<div class="col-lg-9"><br><br>
+						<ul class="nav nav-pills nav-justified">
+							<li class="pill-bg-grey" ><a href="#"class="pill-text-color" data-toggle="tooltip" title="Products">Products</a></li>
+							<li class="pill-bg-lgrey"><a href="#" class="pill-text-color" data-toggle="tooltip" title="Vendors">Vendors</a></li>
+							<li class="pill-bg-cream"><a href="#" class="pill-text-color pillscolor" data-toggle="tooltip" title="">Category</a></li>
+						</ul>
+					<br>
+					<div class="row">
+					
+						<div class="col-sm-5">	
+						<h2>Shaver<small> by Braun</small>
+						<span><button type="button" class="btn pencil-glyph" style="border-radius:3rem;"><span class="glyphicon glyphicon-pencil pencil-glyph"></span></button></h2><br>
+						<p class="glyphicon glyphicon-star star-glyph"><span>4.7</span></p>
+							  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+   </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images\shaver1.jpg" alt="Chania" width="460" height="345">
+		<div class="carousel-caption">
+          <h3 class="carousel-text-color">Grip Handle</h3>
+          <p class="carousel-text-color">Easy to hold</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images\shaver2.jpg" alt="Chania" width="460" height="345">
+		<div class="carousel-caption">
+          
+		  <h3 class="carousel-text-color">USB charging</h3>
+          <p class="carousel-text-color">flexible charing via computers</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="images\shaver3.jpg" alt="Flower" width="460" height="345">
+		<div class="carousel-caption">
+          <h3 class="carousel-text-color">Hi-tech design</h3>
+          <p class="carousel-text-color">International quality</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images\shaver4.jpg" alt="Flower" width="460" height="345">
+		<div class="carousel-caption">
+          <h3 class="carousel-text-color">self sharpening</h3>
+          <p class="carousel-text-color">titanium blades</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<div class="col-sm-3"><br><br><br><br><br>
+<h3>Product Description<button type="button" class="btn pencil-glyph" style="border-radius:3rem;"><span class="glyphicon glyphicon-pencil pencil-glyph"></span></button></h3>
+	<br>
+	<p>	<h4>Face and Hair Trimming</h4><p>6 different attachments allow you to create your unique look with effortless precision</p>	
+	<h4>Ear & Nose Trimming</h4>
+	
+ 
+
+<p>Remove ear and nose hair effectively without pulling and tugging.</p>
+<h4>Convenient use</h4>
+ 
+
+<p>USB charging<p>
+	</p>
+	
+	<div class="price-text">
+  <h3 class="price-text">₹1,64,900/-<small>0%off</small>&nbsp<span><button type="button" class="btn pencil-glyph" style="border-radius:3rem;"><span class="glyphicon glyphicon-pencil pencil-glyph"></button></span></h3>
+</div>
+</div>
+
+<div class="col-sm-2">
+						
+					<form action="ListProduct.html">
+						
+					<div id="cancelButton">
+<button class="add-button cancel"  data-toggle="tooltip" title="Cancel" type="submit">Cancel</button></div>
+<div id="addButton">
+<button   class="cancel-button cancel"  data-toggle="tooltip" title="Finish"type="submit" >Finish</button>
+
+</div></form></div>
+				</div></div>
+			</div>						
+						
+				</div>
+	</body>
+</html>

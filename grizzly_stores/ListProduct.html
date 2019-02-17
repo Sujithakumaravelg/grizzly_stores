@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style\practicecheck.css">
+		<link rel="stylesheet" type="text/css" href="style\placeholder.css">
+		<title>ListProduct</title>
+		<script type="text/javascript" src="scripts\username.js"></script>
+		 <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+	<body>
+		<div class="container-fluid">
+			 <nav class="collapse navbar-collapse navbar-color">
+					<div class="navbar-header">
+						<p class="navbar-font" >GRIZZLY<img src="images\grizzlygrey.png" alt="Logo" width="85px" height="60px">STORE</p>
+					</div>
+					<ul class="nav navbar-nav ">
+						<form class="navbar-form navbar-left">
+                            <div class="form-group has-feedback has-search search-bar-padding">
+                                <input type="text" class="search-bar" placeholder="search" data-toggle="tooltip" title="Search"/>
+								<span class="glyphicon glyphicon-search form-control-feedback search-icon-padding">
+                                                                </span>
+
+							</div>
+						</form>
+					</ul>
+					
+					<ul>
+						<!--<script>
+							function getUserName(){
+								var b = document.getElementById('name').value;
+								document.write("Welcome,admin"+b);
+							}
+						</script>-->
+					</ul>
+					<ul class="navbar-right nav-pad-right nav-pad-right-logout">
+						<div class="logout"><input type="button" class="login-logout-button " onclick="closeTab()" style="width:150%" value="Logout" data-toggle="tooltip" title="Logout"></div>
+					</ul>
+					<ul class="navbar-right nav-pad-right ">
+					<h5>WELCOME,ADMIN,USERNAME</h5>
+					</ul>
+					<ul class="navbar-right nav-pad-right nav-pad-right-bellIcon">
+						<a class="btn btn-transparent glyphicon glyphicon-bell" data-toggle="tooltip" title="No notification"href="#demo" role="button" aria-expanded="false" aria-controls="collapseExample" ></a>
+						
+					</ul>					
+				</nav>
+				<div class="row">
+					<div class="col-lg-3">
+						<br><br>
+						<div class="well" style="padding-bottom:10px;">
+                            <div class="container-fluid">
+                                <h4 class="profile-float"> PROFILE </h4>
+                            </div><br><br>
+                            <div class="profile-pic">
+                                <img src="images\greybg.png" height="150px" width="150px id="p5">
+                            </div><br><br>
+                            <div class="p6">
+                                <h2> Helen Cho</h2>
+                                <br><br>
+								<h4>  <b>ID</b> <br><span class="text-opacity"> GRZLY17234</span> <br><br><br><b> Designation</b><br><span class="text-opacity"> Sr.Admin</span> <br><br><br><b> Office</b> <br> <span class="text-opacity">NYC,NY,USA</span></h4><br><br><br><br><br><br><br><br><br>
+                            </div>
+                        </div>
+					</div>
+					<div class="col-lg-9"><br><br>
+						<ul class="nav nav-pills nav-justified">
+							<li class="pill-bg-grey" ><a href="#"class="pill-text-color" data-toggle="tooltip" title="Products">Products</a></li>
+							<li class="pill-bg-lgrey"><a href="#" class="pill-text-color" data-toggle="tooltip" title="Vendors">Vendors</a></li>
+							<li class="pill-bg-cream"><a href="#" class="pill-text-color pillscolor" data-toggle="tooltip" title="">Category</a></li>
+						</ul>
+					<br>
+					<br><br>
+					<div>
+						<span class="dropdown" style="padding-left:3%">
+				
+							<button class="btn  dropdown-toggle table-button button-chooseAction" type="button" data-toggle="dropdown">choose-action
+								<span class="caret"></span></button>
+								<ul class="dropdown-menu">
+									<li class="disabled"><a href="#" >select-item</a></li>
+								</ul></span>
+							<span>&nbsp &nbsp &nbsp &nbsp <input type="text" class="search-category text-center" placeholder="Search Category"></span>
+							<button class="btn  dropdown-toggle sortBy search-category" type="button" data-toggle="dropdown">Sort Action
+								<span class="caret"></span></button>
+								<ul class="dropdown-menu">
+									<li class="active"><a href="#" >newest-first</a></li>
+									<li><a href="#" >price low-to-high</a></li>
+									<li><a href="#" >price high-to-low</a></li>
+									<li><a href="#" >popularity</a></li>
+								</ul>
+							<span class="addProduct-padding">
+							<a href="viewProduct.html" class="btn addProduct-color search-category" style="color:#000" data-toggle="tooltip" title="Addproducts">Add Product</a></span>
+						</div><br><br><br><br><br><br>
+					<div class="scrollit">
+						<table class="table " rules="cols">
+							<tr style="color:rgba(0,0,0,0.5);text-align:center;">
+								<td>Product List </td>
+								<td>Brand </td>
+								<td>Category</td>
+								<td>Rating</td>
+								<td></td>
+							</tr>
+						<tr>
+							<td><input type="checkbox" name="items" value="Trimmer" >Trimmer </td>
+							<td>Philpis </td>
+							<td>Personal Care</td>
+							<td class="rating">4.7</td>
+							<td> 
+								<form>
+									<span class="table-button-pad"><a href="AddProductTrimmers.html" class="btn table-button"><span style="Padding:0 0 0 0"> view</span></a></span>
+									<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Block</span></a></span>
+									<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Remove</span></a></span>
+								</form>
+							</td>
+						</tr>
+			
+					<tr>
+						<td><input type="checkbox" name="items" value="Shaver">Shaver </td>
+						<td>Braun </td>
+						<td>Personal Care</td>
+						<td class="rating">4.8</td>
+						<td>
+							<form>
+								<span class="table-button-pad"><a href="AddProduct-shaver.html" class="btn table-button"><span style="Padding:0 0 0 0"> view</span></a></span>
+								<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Block</span></a></span>
+									<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Remove</span></a></span>
+							</form>
+						</td>
+					</tr>
+			
+					<tr>
+						<td><input type="checkbox" name="items" value="Shaver">Macbook pro </td>
+						<td>Apple </td>
+						<td>Laptops</td>
+						<td class="rating">4.9</td>
+						<td>
+							<form>
+								<span class="table-button-pad"><a href="AddProduct-macbook-pro.html" class="btn table-button "><span style="Padding:0 0 0 0"> view</span></a></span>
+								<span class="table-button-pad"><a href="viewProduct.html" class="btn table-button"><span style="Padding:0 0 0 0"> Block</span></a></span>
+									<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Remove</span></a></span>
+							</form>
+						</td>
+					</tr>
+			
+					<tr class="black">
+						<td><input type="checkbox" name="items" value="iMac27" >iMac27"</td>
+						<td>Apple</td>
+						<td>Laptops</td>
+						<td class="rating">4.6</td>
+						<td>
+							<form>
+								<span class="table-button-pad"><a href="AddProduct-imac 27.html" class="btn table-button"><span style="Padding:0 0 0 0"> view</span></a></span>
+								<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Block</span></a></span>
+									<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Remove</span></a></span>
+							</form>
+						</td>
+					</tr>
+			
+					<tr color="black">
+			
+						<td><input type="checkbox" name="items" value="Micron Pens" >Micron Pens </td>
+						<td>Sakura Pigma </td>
+						<td>Art Supplies</td>
+						<td class="rating">4.1</td>
+						<td>
+							<form>
+								<span class="table-button-pad"><a href="AddProduct-micronpens.html" class="btn table-button"><span style="Padding:0 0 0 0"> view</span></a></span>
+								<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Block</span></a></span>
+									<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Remove</span></a></span>
+							</form>
+						</td>
+					</tr>
+			
+					<tr color="black">
+		
+						<td><input type="checkbox" name="items" value="Paint Markers" >Paint Markers </td>
+						<td>Copic </td>
+						<td>Art Supplies</td>
+						<td class="rating">4.2</td>
+						<td>
+							<form>
+								<span class="table-button-pad"><a href="AddProduct-marker.html" class="btn table-button"><span style="Padding:0 0 0 0"> view</span></a></span>
+								<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Block</span></a></span>
+									<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Remove</span></a></span>
+							</form>
+						</td>
+					</tr>
+		
+						<tr>
+							<td><input type="checkbox" name="items" value="Trimmer" >Trimmer </td>
+							<td>Philpis </td>
+							<td>Personal Care</td>
+							<td class="rating">4.7</td>
+							<td> 
+								<form>
+									<span class="table-button-pad"><a href="AddProductTrimmers.html" class="btn table-button"><span style="Padding:0 0 0 0"> view</span></a></span>
+									<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Block</span></a></span>
+									<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Remove</span></a></span>
+								</form>
+							</td>
+						</tr>
+			
+					<tr>
+						<td><input type="checkbox" name="items" value="Shaver">Shaver </td>
+						<td>Braun </td>
+						<td>Personal Care</td>
+						<td class="rating">4.8</td>
+						<td>
+							<form>
+								<span class="table-button-pad"><a href="AddProduct-shaver.html" class="btn table-button"><span style="Padding:0 0 0 0"> view</span></a></span>
+								<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Block</span></a></span>
+									<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Remove</span></a></span>
+							</form>
+						</td>
+					</tr>
+			
+					<tr>
+						<td><input type="checkbox" name="items" value="Shaver">Macbook pro </td>
+						<td>Apple </td>
+						<td>Laptops</td>
+						<td class="rating">4.9</td>
+						<td>
+							<form>
+								<span class="table-button-pad"><a href="AddProduct-macbook-pro.html" class="btn table-button "><span style="Padding:0 0 0 0"> view</span></a></span>
+								<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Block</span></a></span>
+									<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Remove</span></a></span>
+							</form>
+						</td>
+					</tr>
+			
+					<tr class="black">
+						<td><input type="checkbox" name="items" value="iMac27" >iMac27"</td>
+						<td>Apple</td>
+						<td>Laptops</td>
+						<td class="rating">4.6</td>
+						<td>
+							<form>
+								<span class="table-button-pad"><a href="AddProduct-imac 27.html" class="btn table-button"><span style="Padding:0 0 0 0"> view</span></a></span>
+								<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Block</span></a></span>
+									<span class="table-button-pad"><a href="#" class="btn table-button"><span style="Padding:0 0 0 0"> Remove</span></a></span>
+							</form>
+						</td>
+					</tr>
+			
+				</table>
+			</div>
+		</div></div>
+		</div>
+		
+	</body>
+</html>
